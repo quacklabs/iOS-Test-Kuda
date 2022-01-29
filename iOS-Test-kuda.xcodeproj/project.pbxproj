@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		DEBAD98727A4BCEB0031C7D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAD98627A4BCEB0031C7D1 /* AppDelegate.swift */; };
-		DEBAD98927A4BCEB0031C7D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAD98827A4BCEB0031C7D1 /* SceneDelegate.swift */; };
-		DEBAD98B27A4BCEB0031C7D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAD98A27A4BCEB0031C7D1 /* ViewController.swift */; };
-		DEBAD98E27A4BCEB0031C7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBAD98C27A4BCEB0031C7D1 /* Main.storyboard */; };
 		DEBAD99027A4BCF50031C7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBAD98F27A4BCF50031C7D1 /* Assets.xcassets */; };
 		DEBAD99327A4BCF50031C7D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBAD99127A4BCF50031C7D1 /* LaunchScreen.storyboard */; };
+		DEBAD99C27A5606E0031C7D1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAD99B27A5606E0031C7D1 /* TabBarController.swift */; };
+		DEBAD99E27A564330031C7D1 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAD99D27A564330031C7D1 /* AccountsViewController.swift */; };
+		DEBAD9A027A567DF0031C7D1 /* OtherControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAD99F27A567DF0031C7D1 /* OtherControllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DEBAD98327A4BCEB0031C7D1 /* iOS-Test-kuda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Test-kuda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEBAD98627A4BCEB0031C7D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DEBAD98827A4BCEB0031C7D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DEBAD98A27A4BCEB0031C7D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DEBAD98D27A4BCEB0031C7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEBAD98F27A4BCF50031C7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEBAD99227A4BCF50031C7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEBAD99427A4BCF50031C7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBAD99B27A5606E0031C7D1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DEBAD99D27A564330031C7D1 /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		DEBAD99F27A567DF0031C7D1 /* OtherControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherControllers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,23 @@
 		DEBAD98527A4BCEB0031C7D1 /* iOS-Test-kuda */ = {
 			isa = PBXGroup;
 			children = (
+				DEBAD99A27A5605A0031C7D1 /* Presentation */,
 				DEBAD98627A4BCEB0031C7D1 /* AppDelegate.swift */,
-				DEBAD98827A4BCEB0031C7D1 /* SceneDelegate.swift */,
-				DEBAD98A27A4BCEB0031C7D1 /* ViewController.swift */,
-				DEBAD98C27A4BCEB0031C7D1 /* Main.storyboard */,
 				DEBAD98F27A4BCF50031C7D1 /* Assets.xcassets */,
 				DEBAD99127A4BCF50031C7D1 /* LaunchScreen.storyboard */,
 				DEBAD99427A4BCF50031C7D1 /* Info.plist */,
 			);
 			path = "iOS-Test-kuda";
+			sourceTree = "<group>";
+		};
+		DEBAD99A27A5605A0031C7D1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DEBAD99B27A5606E0031C7D1 /* TabBarController.swift */,
+				DEBAD99D27A564330031C7D1 /* AccountsViewController.swift */,
+				DEBAD99F27A567DF0031C7D1 /* OtherControllers.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +135,6 @@
 			files = (
 				DEBAD99327A4BCF50031C7D1 /* LaunchScreen.storyboard in Resources */,
 				DEBAD99027A4BCF50031C7D1 /* Assets.xcassets in Resources */,
-				DEBAD98E27A4BCEB0031C7D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +145,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEBAD98B27A4BCEB0031C7D1 /* ViewController.swift in Sources */,
+				DEBAD99C27A5606E0031C7D1 /* TabBarController.swift in Sources */,
+				DEBAD99E27A564330031C7D1 /* AccountsViewController.swift in Sources */,
+				DEBAD9A027A567DF0031C7D1 /* OtherControllers.swift in Sources */,
 				DEBAD98727A4BCEB0031C7D1 /* AppDelegate.swift in Sources */,
-				DEBAD98927A4BCEB0031C7D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DEBAD98C27A4BCEB0031C7D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DEBAD98D27A4BCEB0031C7D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DEBAD99127A4BCF50031C7D1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kuda.iOS-Test-kuda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kuda.iOS-Test-kuda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

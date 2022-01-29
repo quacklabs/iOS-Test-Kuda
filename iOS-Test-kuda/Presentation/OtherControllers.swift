@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  OtherControllers.swift
 //  iOS-Test-kuda
 //
 //  Created by Mark Boleigha on 29/01/2022.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class OtherControllers: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.view.backgroundColor = .white
     }
-
-
 }
-
